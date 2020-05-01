@@ -19,7 +19,6 @@
 4、创建数据库
     python manage.py migrate
     执行runserver
-    
     ![image](https://github.com/yutao-turbo/learning_log/blob/master/image-dev/runserver.png)
     django的成功页面
     ![image](https://github.com/yutao-turbo/learning_log/blob/master/image-dev/django-welcome.png)
