@@ -23,3 +23,10 @@
     django的成功页面
     ![image](https://github.com/yutao-turbo/learning_log/blob/master/image-dev/django-welcome.png)
     
+5、创建应用程序
+    django项目由一系列的应用程序组成，
+    在激活python隔离环境，切换到manage.py所在目录，执行startapp
+    python manage.py startapp learning_logs 命令，让Django建立创建应用程序所需要的
+    基础设施，查看项目目录其中新增文件夹learning_logs。其中最重要的文件是models.py、
+    admin.py和view.py。使用models.py来定义要在应用程序中管理的数据。
+
