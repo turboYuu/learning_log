@@ -41,7 +41,7 @@
         0001——initial.py的迁移文件，这个文件将在数据库中为模型Topic创建一个表。
         应用迁移migrate
         
-![image](https://github.com/yutao-turbo/learning_log/blob/master/image-dev/migrate.png)
+        ![image](https://github.com/yutao-turbo/learning_log/blob/master/image-dev/migrate.png)
         
         每当需要修改“学习笔记”管理的数据时，都采用如下三个步骤：修改models.py;
         对learning_logs调用makemigrations;让Django迁移项目
@@ -49,10 +49,10 @@
         创建超级用户
         createsuperuser
         
-![image](https://github.com/yutao-turbo/learning_log/blob/master/image-dev/createsuperuser.png)
+        ![image](https://github.com/yutao-turbo/learning_log/blob/master/image-dev/createsuperuser.png)
 
         项管理网站中注册模型
-![image](https://github.com/yutao-turbo/learning_log/blob/master/image-dev/admin_welcome.png)
+        ![image](https://github.com/yutao-turbo/learning_log/blob/master/image-dev/admin_welcome.png)
 
 
 
