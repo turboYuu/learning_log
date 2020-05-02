@@ -29,6 +29,7 @@
     python manage.py startapp learning_logs 命令，让Django建立创建应用程序所需要的
     基础设施，查看项目目录其中新增文件夹learning_logs。其中最重要的文件是models.py、
     admin.py和view.py。使用models.py来定义要在应用程序中管理的数据。
+    
     5.1 定义模型
         修改models.py
     5.2 激活模型
