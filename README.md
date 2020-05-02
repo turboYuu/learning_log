@@ -30,3 +30,23 @@
     基础设施，查看项目目录其中新增文件夹learning_logs。其中最重要的文件是models.py、
     admin.py和view.py。使用models.py来定义要在应用程序中管理的数据。
 
+    5.1 定义模型
+        修改models.py
+    5.2 激活模型
+        打开setting.py 看到INSTALLED_APPS片段，即告诉Django哪些应用程序安装在项目中
+        这是一个数组，在INSTALLED_APPS中添加创建的应用程序learing_logs(之前startapp
+        创建的应用程序)。
+        需要让Django修改数据库,需要执行makemigrations命令,命令makemigrations让Django
+        确定如何修改数据库，使其能够存储与我们定义的新模型相关联的数据，Django创建一个
+        0001——initial.py的迁移文件，这个文件将在数据库中为模型Topic创建一个表。
+        应用迁移migrate
+
+        每当需要修改“学习笔记”管理的数据时，都采用如下三个步骤：修改models.py;
+        对learning_logs调用makemigrations;让Django迁移项目
+    5.3 Django管理网站
+        创建超级用户
+        createsuperuser
+        项管理网站中注册模型
+
+
+
