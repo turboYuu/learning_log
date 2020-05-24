@@ -48,6 +48,10 @@
         ![image](https://github.com/yutao-turbo/learning_log/blob/master/image-dev/createsuperuser.png)
         项管理网站中注册模型
         ![image](https://github.com/yutao-turbo/learning_log/blob/master/image-dev/admin_welcome.png)
-
+6、创建网页：学习笔记主页
+    使用Django创建网页学习笔记通常分三个阶段：定义URL、编写视图和编写模板。
+    URl模式描述了URL是如何设计的，让Django知道如何将浏览器请求与网站URL匹配，以确定返回那个网页。
+    每个URL都被映射到特定的视图——视图函数获取并处理网页所需的数据。视图函数通常调用一个模板，
+    后者
 
 
